@@ -1,0 +1,64 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+
+  background-image: url("la-view.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navbar a:hover {
+  background-color: gold;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ol {
+  background-color: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+}
+img {
+  box-shadow: 5px 5px 10px black;
+}
